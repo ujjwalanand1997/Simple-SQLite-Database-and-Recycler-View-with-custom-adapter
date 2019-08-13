@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Admin</string>
+    <string name="login_text">Login</string>
+    <string name="enter_id">Enter ID</string>
+    <string name="enter_pass">Enter Password</string>
+    <string name="register_text">Register</string>
+    <string name="registered_text">Registered Users</string>
+    <string name="sign_out">sign Out</string>
+    <string name="delete_text">Delete All Users</string>
+    <string name="user_already_exist">User Already Exist</string>
+    <string name="enter_details">Please enter the details</string>
+</resources>
