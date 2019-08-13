@@ -1,4 +1,4 @@
-package ujjwal.anand.globallogic.admin;
+package ujjwal.anand.globallogic.admin.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,12 +14,15 @@ import android.widget.Button;
 import java.util.ArrayList;
 import java.util.List;
 
+import ujjwal.anand.globallogic.admin.db.DatabaseHelper;
+import ujjwal.anand.globallogic.admin.R;
+import ujjwal.anand.globallogic.admin.adapter.UserAdapter;
 import ujjwal.anand.globallogic.admin.pojo.User;
 
-public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
+import static ujjwal.anand.globallogic.admin.constants.Constants.LOGGED_USER;
+import static ujjwal.anand.globallogic.admin.constants.Constants.PREF_NAME;
 
-    public final String PREF_NAME = "isLogged";
-    public final String LOGGED_USER = "loggedUser";
+public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
 
     RecyclerView mListView;
     List<User> users;

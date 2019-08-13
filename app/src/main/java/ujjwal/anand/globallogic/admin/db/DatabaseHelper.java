@@ -1,4 +1,4 @@
-package ujjwal.anand.globallogic.admin;
+package ujjwal.anand.globallogic.admin.db;
 
 import android.content.ContentValues;
 import android.content.Context;

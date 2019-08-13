@@ -1,4 +1,4 @@
-package ujjwal.anand.globallogic.admin;
+package ujjwal.anand.globallogic.admin.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
+import ujjwal.anand.globallogic.admin.R;
 import ujjwal.anand.globallogic.admin.pojo.User;
 
 public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder> {

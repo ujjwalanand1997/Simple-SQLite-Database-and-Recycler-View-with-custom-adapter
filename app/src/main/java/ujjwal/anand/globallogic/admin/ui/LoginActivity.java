@@ -1,4 +1,4 @@
-package ujjwal.anand.globallogic.admin;
+package ujjwal.anand.globallogic.admin.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,17 +6,19 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+import ujjwal.anand.globallogic.admin.db.DatabaseHelper;
+import ujjwal.anand.globallogic.admin.R;
 
-    public final String PREF_NAME = "isLogged";
-    public final String LOGGED_USER = "loggedUser";
+import static ujjwal.anand.globallogic.admin.constants.Constants.LOGGED_USER;
+import static ujjwal.anand.globallogic.admin.constants.Constants.PREF_NAME;
+
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     EditText mLoginId,mPassword;
     Button mLoginBtn;

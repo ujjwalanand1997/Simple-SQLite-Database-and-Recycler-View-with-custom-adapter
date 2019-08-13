@@ -1,4 +1,4 @@
-package ujjwal.anand.globallogic.admin;
+package ujjwal.anand.globallogic.admin.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import ujjwal.anand.globallogic.admin.db.DatabaseHelper;
+import ujjwal.anand.globallogic.admin.R;
 
 public class RegistrationActivity extends AppCompatActivity implements View.OnClickListener {
 

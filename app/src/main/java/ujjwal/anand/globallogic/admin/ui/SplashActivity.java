@@ -1,4 +1,4 @@
-package ujjwal.anand.globallogic.admin;
+package ujjwal.anand.globallogic.admin.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,14 +6,15 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import java.sql.Time;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class SplashActivity extends AppCompatActivity {
+import ujjwal.anand.globallogic.admin.R;
 
-    public final String PREF_NAME = "isLogged";
-    public final String LOGGED_USER = "loggedUser";
+import static ujjwal.anand.globallogic.admin.constants.Constants.LOGGED_USER;
+import static ujjwal.anand.globallogic.admin.constants.Constants.PREF_NAME;
+
+public class SplashActivity extends AppCompatActivity {
 
     SharedPreferences sharedPreferences;
 
